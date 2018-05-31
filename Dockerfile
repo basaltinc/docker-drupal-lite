@@ -75,6 +75,8 @@ RUN { \
 RUN apt-get update && apt-get install sqlite --yes
 RUN . ~/.profile
 
+RUN chown www-data:www-data /var/www --recursive
+
 # node & yarn
 RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
