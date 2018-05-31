@@ -85,4 +85,4 @@ RUN npm i -g yarn
 RUN yarn --version
 RUN node --version
 
-EXPOSE 80
+#EXPOSE 80
