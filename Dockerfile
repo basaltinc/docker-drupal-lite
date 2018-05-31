@@ -84,3 +84,5 @@ RUN apt-get update && apt-get install -y nodejs build-essential
 RUN npm i -g yarn
 RUN yarn --version
 RUN node --version
+
+EXPOSE 80
